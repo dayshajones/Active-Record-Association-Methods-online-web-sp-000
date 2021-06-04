@@ -8,7 +8,8 @@ class Genre < ActiveRecord::Base
   end
 
   def artist_count
-    # return the number of artists associated with the genre
+    a = self.artists
+    a.count
   end
 
   def all_artist_names
