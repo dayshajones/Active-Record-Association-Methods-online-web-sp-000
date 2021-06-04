@@ -17,5 +17,4 @@ class Genre < ActiveRecord::Base
       a.name
     end
   end
-  end
 end
